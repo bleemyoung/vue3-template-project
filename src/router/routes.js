@@ -10,6 +10,13 @@ const routes = [{
         name: 'registerUser',
         path: '/registerUser',
         component: Register
-    }
+    },
+    {
+        path: '/home',
+        name: 'home',
+        // 懒加载路由
+        component: () =>
+            import ('@/views/home/Home.vue'),
+    },
 ];
 export default routes
