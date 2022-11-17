@@ -1,14 +1,15 @@
 <template>
     <div>
-      当前是注册页面
+      当前是登录页面
     </div>
   </template>
   
   <script>
   export default {
-    name: "register"
+    name: "loginUser"
   }
   </script>
   
   <style scoped>
   </style>
+  

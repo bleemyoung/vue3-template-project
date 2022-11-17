@@ -1,14 +1,14 @@
-import Register from '@/components/register.vue'
-import Login from '@/components/login.vue'
+import Register from '@/components/registerUser.vue'
+import Login from '@/components/loginUser.vue'
 
 const routes = [{
-        name: 'login',
-        path: '/login',
+        name: 'loginUser',
+        path: '/loginUser',
         component: Login
     },
     {
-        name: 'register',
-        path: '/register',
+        name: 'registerUser',
+        path: '/registerUser',
         component: Register
     }
 ];
