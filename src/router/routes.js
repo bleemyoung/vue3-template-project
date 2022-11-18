@@ -12,11 +12,18 @@ const routes = [{
         component: Register
     },
     {
-        path: '/home',
-        name: 'home',
+        path: '/',
+        name: 'Home',
         // 懒加载路由
         component: () =>
             import ('@/views/home/Home.vue'),
     },
+    {
+        path: '/menu',
+        name: 'Menu',
+        // 懒加载路由
+        component: () =>
+            import ('@/views/menu/Menu.vue'),
+    }
 ];
 export default routes
